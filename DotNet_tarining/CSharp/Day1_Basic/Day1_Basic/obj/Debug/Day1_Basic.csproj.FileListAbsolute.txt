@@ -1,0 +1,7 @@
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\bin\Debug\Day1_Basic.exe.config
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\bin\Debug\Day1_Basic.exe
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\bin\Debug\Day1_Basic.pdb
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\obj\Debug\Day1_Basic.csproj.AssemblyReference.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\obj\Debug\Day1_Basic.csproj.CoreCompileInputs.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\obj\Debug\Day1_Basic.exe
+C:\Hari_infinite\DotNet_tarining\CSharp\Day1_Basic\Day1_Basic\obj\Debug\Day1_Basic.pdb

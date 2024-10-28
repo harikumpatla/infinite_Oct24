@@ -1,1 +1,1 @@
-hello hii
+This is a sample file for better understanding of git.

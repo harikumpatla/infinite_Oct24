@@ -10,23 +10,24 @@ namespace Tasks
     {
         static void Main()
         {
+            int result = Program5.Sample();
+            Console.WriteLine("The Triple of sum is :" + result);
+            Console.Read();
           
-           Program5.Sample();
         }
-        public static void Sample()
+        public static int Sample()
         {
             Console.WriteLine("Enter The first number:");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter The second number:");
             int num2 = Convert.ToInt32(Console.ReadLine());
             int sum = num1 + num2;
+            int Tsum =0;
             if (num1 == num2)
             {
-                sum = sum * 3;
-                
-            }
-            Console.WriteLine(sum);
-            Console.Read();           
+                Tsum = sum * 3;         
+            }         
+            return Tsum;                      
         }    
     }
 }

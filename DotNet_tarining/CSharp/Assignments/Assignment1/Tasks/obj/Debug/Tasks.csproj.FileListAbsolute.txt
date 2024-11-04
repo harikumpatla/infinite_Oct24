@@ -1,7 +1,0 @@
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\bin\Debug\Tasks.exe.config
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\bin\Debug\Tasks.exe
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\bin\Debug\Tasks.pdb
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\obj\Debug\Tasks.csproj.AssemblyReference.cache
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\obj\Debug\Tasks.csproj.CoreCompileInputs.cache
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\obj\Debug\Tasks.exe
-C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Tasks\Tasks\obj\Debug\Tasks.pdb

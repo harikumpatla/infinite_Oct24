@@ -10,9 +10,13 @@ namespace Assignment2
     {
         public static void SwapNumbers()
         {
-            int a = 25;
+            Console.WriteLine("enter the a value : ");
 
-            int b = 56;
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("enter the b value : ");
+
+            int b = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Before swaping of Two numbers " + " a = "+ a + " , b = "+ b);
 
@@ -21,6 +25,7 @@ namespace Assignment2
             a = b;
 
             b = swap;
+
             Console.WriteLine();
 
             Console.WriteLine("After swaping of Two numbers " + " a = " + a + " , b = " + b);

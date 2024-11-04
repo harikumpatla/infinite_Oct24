@@ -10,9 +10,18 @@ namespace Assignment2
     {
         static void Main(String[] args)
         {
-            int[] data = new int[10] { 12, 78, 54, 34, 86, 42, 99, 25, 60, 143 };
+            Console.WriteLine("Enter the array size:");
 
-            int size = data.Length;
+            int size = Convert.ToInt32(Console.ReadLine());
+
+            int[] data = new int[size];
+
+            Console.WriteLine("Enter " + size + " Elements : ");
+
+            for (int i = 0; i <= data.Length - 1; i++)
+            {
+                data[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             int total = 0;
 

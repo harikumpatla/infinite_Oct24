@@ -10,7 +10,18 @@ namespace Assignment2
     {
         public static void AvgValue()
         {
-            int[]  data = new int[] { 4,12,23,45,78};
+            Console.WriteLine("Enter the array size:");
+
+            int size = Convert.ToInt32(Console.ReadLine());
+
+            int[] data = new int[size];
+
+            Console.WriteLine("Enter " + size + " Elements : ");
+
+            for (int i = 0; i <= data.Length - 1; i++)
+            {
+                data[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             double sum = 0;
 
@@ -26,7 +37,18 @@ namespace Assignment2
         }
         public void MinMaxValue()
         {
-            int[] data = new int[] { 23,87,45,33,62 };
+            Console.WriteLine("Enter the array size:");
+
+            int size = Convert.ToInt32(Console.ReadLine());
+
+            int[] data = new int[size];
+
+            Console.WriteLine("Enter " + size + " Elements : ");
+
+            for (int i = 0; i <= data.Length - 1; i++)
+            {
+                data[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
             int min = data[0];
 

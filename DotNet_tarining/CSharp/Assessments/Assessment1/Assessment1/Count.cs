@@ -8,17 +8,17 @@ namespace Assessment1
 {
     class Count
     {
-        static int Occurrences(string str , char ch)
+        static int Occurrences(string str, char ch)
         {
             int count = 0;
-            foreach(char c in str.ToLower())
+            foreach (char c in str.ToLower())
             {
-                if(c == char.ToLower(ch))
+                if (c == char.ToLower(ch))
                 {
                     count++;
-                     
+
                 }
-                
+
             }
             return count;
         }
@@ -29,7 +29,11 @@ namespace Assessment1
             string str = Console.ReadLine();
 
             Console.WriteLine("Enter a letter :");
-            char l  = Console.ReadLine()[0];
+            char l = Console.ReadLine()[0];
 
-            Console.WriteLine("the letter appears :{0}", Occurrences(str,l));
+            Console.WriteLine("the letter appears :{0}", Occurrences(str, l));
+
+            Console.Read();
         }
+    }
+}

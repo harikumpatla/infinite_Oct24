@@ -1,0 +1,7 @@
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\obj\Debug\Assignment5.csproj.AssemblyReference.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\obj\Debug\Assignment5.csproj.CoreCompileInputs.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\bin\Debug\Assignment5.exe.config
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\bin\Debug\Assignment5.exe
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\bin\Debug\Assignment5.pdb
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\obj\Debug\Assignment5.exe
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\Assignment5\Assignment5\obj\Debug\Assignment5.pdb

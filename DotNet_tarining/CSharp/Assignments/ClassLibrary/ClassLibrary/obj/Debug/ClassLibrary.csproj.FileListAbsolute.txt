@@ -1,0 +1,6 @@
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\ClassLibrary\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.pdb
+C:\Hari_infinite\DotNet_tarining\CSharp\Assignments\ClassLibrary\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache

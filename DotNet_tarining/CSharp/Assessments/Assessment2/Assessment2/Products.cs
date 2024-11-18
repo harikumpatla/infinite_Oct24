@@ -10,18 +10,18 @@ namespace Assessment2
     {
         public int product_id { get; set; }
         public string product_name { get; set; }
-        public int price { get; set; }
+        public decimal price_Amount { get; set; }
 
         public Products(int productId, string productName, decimal price)
         {
             product_id = productId;
             product_name = productName;
-            price = price;
+            price_Amount = price;
         }
 
         public override string ToString()
         {
-            return $"ID: {product_id},Name: {product_name},Price: {price:c}";
+            return $"ID: {product_id},Name: {product_name},Price: {price_Amount}";
         }
 
     }
@@ -45,7 +45,7 @@ namespace Assessment2
                 products.Add(new Products(productId, productName, price));
                 Console.WriteLine();
             }
-            var sortedProducts = products.OrderBy(p => p.price).ToList();
+            var sortedProducts = products.OrderBy(p => p.price_Amount).ToList();
             Console.WriteLine("products sorted by price :");
             foreach (var product in sortedProducts)
             {

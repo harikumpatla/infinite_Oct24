@@ -1,0 +1,7 @@
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\bin\Debug\Assessment4.exe.config
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\bin\Debug\Assessment4.exe
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\bin\Debug\Assessment4.pdb
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\obj\Debug\Assessment4.csproj.AssemblyReference.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\obj\Debug\Assessment4.csproj.CoreCompileInputs.cache
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\obj\Debug\Assessment4.exe
+C:\Hari_infinite\DotNet_tarining\CSharp\Assessments\Assessment4\Assessment4\obj\Debug\Assessment4.pdb

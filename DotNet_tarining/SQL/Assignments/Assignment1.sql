@@ -144,4 +144,3 @@ values(401,7001,'01-Apr-11','20-Apr-11','System Analysis','Completed'),
   select * from EmpProjectTasks
 --Describing the table
 sp_help EmpProjectTasks
-has context menu

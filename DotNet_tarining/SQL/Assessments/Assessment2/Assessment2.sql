@@ -42,6 +42,7 @@ SELECT
 FROM
     Employee;
 
+	drop table employee1
 CREATE TABLE employee1 (
     empno INT PRIMARY KEY,
     ename VARCHAR(50),
@@ -49,34 +50,38 @@ CREATE TABLE employee1 (
     doj DATE
 );
 
- 
+ begin transaction
 INSERT INTO Employee1 
 VALUES 
 (1, 'hari', 1200, '1998-07-27'),
 (2, 'vasu', 1400, '1995-03-10'),
-(3, 'mani', 1600, '1998-07-20');
+(3, 'mani', 1600, '1998-07-20')
+save transaction s1
 select * from employee1
+
 -- b. Update the second row salary with a 15% increment
 UPDATE Employee1
 SET sal = sal * 1.15
 WHERE empno = 2;
+save transaction s2
 -- c. Delete the first row
 DELETE FROM Employee1
 WHERE empno = 1;
-rollback
+rollback transaction s2
 commit
  
 SELECT * FROM Employee1;
 
-create or alter proc updateSal
+create or alter procedure salaryUpdate
 as
 begin
-update e
-set e.salary = e.salary+ 500 
-from employee e
-Join department D ON e.DeptNo = d.Deptno
-where d.Dname = 'Sales' and e.salary < 1500;
+update e 
+set e.salary=e.salary+500
+from employee e join department d on e.deptno=d.deptno
+where d.dname='SALES' And e.salary<1500
 end
-exec updateSal;
-select * from Employee
+ 
+exec salaryUpdate
+
+select * from employee
  

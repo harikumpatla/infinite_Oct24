@@ -40,9 +40,9 @@ namespace Assessment3
             cmd.CommandType = CommandType.StoredProcedure;
             cmd.Parameters.AddWithValue("@ProductName", productName);
             cmd.Parameters.AddWithValue("@Price", price);
+            SqlParameter productIdParam = new SqlParameter();
 
-
-
+            productIdParam.ParameterName = "@ProductID";
             cmd.Parameters.Add(productIdParam);
 
             cmd.ExecuteNonQuery();

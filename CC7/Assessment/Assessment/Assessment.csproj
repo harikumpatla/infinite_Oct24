@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{68C67130-C409-447E-A15A-4CD55B5BB2EE}</ProjectGuid>
+    <ProjectGuid>{6ECDF50E-EDA6-4804-BDA5-D17C60309DFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assignment_1</RootNamespace>
-    <AssemblyName>Assignment-1</AssemblyName>
+    <RootNamespace>Assessment</RootNamespace>
+    <AssemblyName>Assessment</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Assignment1.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

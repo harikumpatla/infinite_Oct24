@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6ECDF50E-EDA6-4804-BDA5-D17C60309DFD}</ProjectGuid>
+    <ProjectGuid>{F8E79AF7-2D3C-49F6-AA0B-B062AD636078}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Assessment</RootNamespace>
-    <AssemblyName>Assessment</AssemblyName>
+    <RootNamespace>Mini_Project</RootNamespace>
+    <AssemblyName>Mini_Project</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Mini_Project.Client</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,19 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AbstractFactory\IAdmin.cs" />
+    <Compile Include="AbstractFactory\IUser.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ConcreateProducts\AdminTrain.cs" />
+    <Compile Include="ConcreateProducts\UserTrain.cs" />
+    <Compile Include="Factories\AdminFactory.cs" />
+    <Compile Include="Factories\ITrainDetails.cs" />
+    <Compile Include="Factories\TrainDatails.cs" />
+    <Compile Include="Factories\UserFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Calculate.html" />
-    <Content Include="DHMO.html" />
-    <Content Include="EvenOrOdd.html" />
-    <Content Include="EventListener.html" />
-    <Content Include="RowAndColumn.html" />
-    <Content Include="ShoppingTrip.html" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

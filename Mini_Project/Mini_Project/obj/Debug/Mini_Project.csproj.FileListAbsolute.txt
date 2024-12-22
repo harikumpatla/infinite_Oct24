@@ -1,0 +1,7 @@
+C:\Hari_infinite\Mini_Project\Mini_Project\obj\Debug\Mini_Project.csproj.AssemblyReference.cache
+C:\Hari_infinite\Mini_Project\Mini_Project\obj\Debug\Mini_Project.csproj.CoreCompileInputs.cache
+C:\Hari_infinite\Mini_Project\Mini_Project\bin\Debug\Mini_Project.exe.config
+C:\Hari_infinite\Mini_Project\Mini_Project\bin\Debug\Mini_Project.exe
+C:\Hari_infinite\Mini_Project\Mini_Project\bin\Debug\Mini_Project.pdb
+C:\Hari_infinite\Mini_Project\Mini_Project\obj\Debug\Mini_Project.exe
+C:\Hari_infinite\Mini_Project\Mini_Project\obj\Debug\Mini_Project.pdb

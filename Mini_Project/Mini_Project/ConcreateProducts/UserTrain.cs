@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Mini_Project.AbstractFactory;
+using Mini_Project.Factories;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -65,6 +66,7 @@ namespace Mini_Project.ConcreateProducts
                     string name = Console.ReadLine();
 
                     Console.WriteLine("Enter Your Gender : ");
+
                     string gender = Console.ReadLine();
 
                     Console.WriteLine("Enter Your Age : ");
@@ -101,6 +103,10 @@ namespace Mini_Project.ConcreateProducts
                     Console.WriteLine("==============================================================================");
                 }
             }
+            catch(FormatException e)
+            {
+                Console.WriteLine("Enter valid input");
+            }
             catch (Exception book)
             {
                 Console.WriteLine($"Error :{book.Message}");
@@ -110,7 +116,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Udisplay();
         }
 
         public void CancelTickets()
@@ -139,7 +145,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Udisplay();
         }
 
         public void ShowAllTrains()
@@ -175,7 +181,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Udisplay();
         }
         public void User_Booking()
         {
@@ -198,7 +204,7 @@ namespace Mini_Project.ConcreateProducts
                 while (dr.Read())
                 {
                     Console.WriteLine();
-                    Console.WriteLine($"Train no : {dr[0]} | PNR No : {dr[1]} | Name : {dr[2]} | Age : {dr[3]} | Gender : {dr[4]} | Class : {dr[5]} | Berth : {dr[6]} | Source : {dr[7]} | Destination : {dr[8]}");
+                    Console.WriteLine($"Train no : {dr[4]} | PNR No : {dr[0]} | Name : {dr[1]} | Age : {dr[2]} | Gender : {dr[3]} | Class : {dr[7]} | status : {dr[8]} | Source : {dr[5]} | Destination : {dr[6]}");
                 }
             }
             catch (Exception ticket)
@@ -210,7 +216,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Udisplay();
         }
 
     }

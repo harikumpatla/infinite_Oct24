@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Mini_Project.AbstractFactory;
+using Mini_Project.Factories;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -92,7 +93,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Adisplay();
         }
         public void ModifyTrains()
         {
@@ -134,7 +135,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Adisplay();
         }
         public void DeleteTrains()
         {
@@ -169,7 +170,7 @@ namespace Mini_Project.ConcreateProducts
                 con.Close();
             }
             Console.WriteLine("==============================================================================");
-            Client.Main();
+            Display.Adisplay();
         }
     }
 }

@@ -34,7 +34,7 @@ as
 begin
 		if not exists (select * from Admin where trainNumber=@trainNumber)
 		 begin
-		  raiserror('Please Enter Correct Train Number..',16,1);
+		  raiserror('Train Number does not exist..',16,1);
 		  return;
 		 end;
 		update Admin set source = @source ,  destination=@destination , isactive=1 where trainNumber=@trainNumber
@@ -48,7 +48,7 @@ as
 begin
 		if not exists (select * from Admin where trainNumber=@trainNumber)
 		 begin
-		   raiserror('Please Enter Correct Train Number..',16,1);
+		   raiserror('Train Number does not exist..',16,1);
 		   return;
 		 end;
          update Admin set isactive = 0 where trainNumber=@trainNumber
@@ -116,7 +116,7 @@ as
 begin
    if not exists (select * from Admin where source=@source and destination=@destination)
 	begin
-	raiserror('Enter Correct Source and Destination.',16,1);
+	raiserror('No Trains are avaliable Between source and Destination! ',16,1);
 	return;
     end;
 	else select * from Admin where source=@source and destination=@destination
@@ -159,3 +159,4 @@ as
 
 select * from Admin
 select * from Users
+

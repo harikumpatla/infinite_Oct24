@@ -52,6 +52,7 @@
     <Compile Include="ConcreateProducts\AdminTrain.cs" />
     <Compile Include="ConcreateProducts\UserTrain.cs" />
     <Compile Include="Factories\AdminFactory.cs" />
+    <Compile Include="Factories\Display.cs" />
     <Compile Include="Factories\ITrainDetails.cs" />
     <Compile Include="Factories\TrainDatails.cs" />
     <Compile Include="Factories\UserFactory.cs" />

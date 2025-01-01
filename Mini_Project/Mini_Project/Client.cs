@@ -14,7 +14,9 @@ namespace Mini_Project
         
         public static void Main()
         {
-                Console.WriteLine("Enter ADMIN || USER || EXIT");
+                Console.WriteLine("==============Railway Reseravtion===============");
+                Console.WriteLine();
+                Console.WriteLine("Choose ADMIN || USER || EXIT");
                 string adminUser = Console.ReadLine();
                 string temp = adminUser.ToLower();
                 ITrainDetails itrainDetails;
@@ -23,52 +25,13 @@ namespace Mini_Project
                 {
                     itrainDetails = new AdminFactory();
                     IAdmin Adminaction = itrainDetails.CreateAdmin();
-                    Console.WriteLine("Choose 1.ADD || 2.MODIFY || 3.DELETE || 4.EXIT");
-                    int choose = Convert.ToInt32(Console.ReadLine());
-
-                    switch (choose)
-                    {
-                        case 1:
-                            Adminaction.AddTrains();
-                            break;
-                        case 2:
-                            Adminaction.ModifyTrains();
-                            break;
-                        case 3:
-                            Adminaction.DeleteTrains();
-                            break;
-                        case 4:
-                            Console.WriteLine("========================================================================");
-                            Main();
-                            break;
-                    }
+                    Display.Adisplay();
                 }
                 else if (temp == "user")
                 {
                     itrainDetails = new UserFactory();
                     IUser Useraction = itrainDetails.CreateUser();
-                    Console.WriteLine("Choose 1.BOOK_TICKET || 2.CANCEL_TICKET || 3.SHOW_TRAINS || 4.USER_BOOKING || 5.EXIT");
-                    int choose = Convert.ToInt32(Console.ReadLine());
-
-                    switch (choose)
-                    {
-                        case 1:
-                            Useraction.BookTickets();
-                            break;
-                        case 2:
-                            Useraction.CancelTickets();
-                            break;
-                        case 3:
-                            Useraction.ShowAllTrains();
-                            break;
-                        case 4:
-                            Useraction.User_Booking();
-                            break;
-                        case 5:
-                            Console.WriteLine("=====================================================================");
-                            Main();
-                            break;
-                    }
+                    Display.Udisplay();
                 }
                 else if (temp == "exit")
                 {
